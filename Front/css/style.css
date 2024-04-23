@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo img{
+    width: 60%;
+    border: 3px solid white;
+    border-radius: 55%;
+    /* padding: 40px; */
+}
+.nav-list{
+width:50%;
+ /* background-color: black;  */
+display: flex;
+align-items: center;
+}
+.nav-list li{
+list-style: none;
+padding: 26px 28px;
+}
+.nav-list li a{
+text-decoration: none;
+color:white;
+}
+.nav-list li a:hover{
+    color:rgb(74, 225, 198)
+}
+.rightnav{
+    width: 50%;
+    text-align: right;
+    padding: 0 15px;
+}
+#Search{
+    padding: 5px;
+    font-size: 16px;
+    border: 2px solid gray;
+    border-radius: 12px;
+}
+.background{
+    background:rgba(0,0,0,0.7) url('../img/pic5.webp');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 70%;
+    height: 80%;
+
+
+}
+ .firstsection{
+   height: 100vh;
+ }
+ .firstHalf{
+ width: 50%;
+ height: 90%;
+display: flex;
+justify-content: left;
+flex-direction: column;
+ }
+.secondHalf{
+width: 90%;
+height: 95%;
+text-align: center;
+justify-content: center;
+}
+.secondHalf img{
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+.text-a{
+    font-size: 25px;
+    color: aqua;
+
+}
+.text-b{
+    font-size: 20px;
+    color: red;
+
+}
+.text-c{
+    font-size: 22px;
+    color: aquamarine   ;
+
+}
+.btn{
+    padding: 5px 16px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    border-radius: 9px;
+    font-size: 14px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+.btn-sm{
+    padding: 3px 10px;
+    vertical-align: middle;
+}
+.fieldset{
+    color: whitesmoke;
+}
